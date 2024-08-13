@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>reCAPTCHA Timesheet</title>
+</head>
+<body>
+    <form action="www.google.com" method="get">
+        <input type="hidden" id="operationname" name="operationname" value="handleLoginCommand">
+  <input type	= "hidden"   id="accesslevel"   name="accesslevel"  />
+  <table align	= "center" style="margin-top:100px"  >
+  <tr colspan="2" ><font style="font-family:Verdana;font-size:12px" >Enter your username* and password*</font></tr>
+  <tr><td width="100px"><font style="font-family:Verdana;font-size:15px" >User Name</font></td><td><input type="text" name="username" value="" autocomplete="off"></td></tr>
+  <tr><td><font style="font-family:Verdana;font-size:15px" >Password</font></td><td><input type="password" name="password" value="" autocomplete="off"></td></tr>
+  <tr><td>
+    <div class="g-recaptcha" data-sitekey="6LeKuyUqAAAAACc-HGZI_uLd4ZQa4YU2rW3uDK9m"></div>
+  <input type="submit" name="Logidddn" value="Login" class="button_add"></td></tr>
+  </br>
+  
+  </table>
+    </form>
+</body>
+</html>
